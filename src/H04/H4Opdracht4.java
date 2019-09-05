@@ -31,10 +31,11 @@ public class H4Opdracht4 extends Applet {
         g.drawRect(380,550,90,250);
         //Nummers 20 t/m 160
         g.setColor(Color.BLACK);
-        g.drawString("20",175,755);
-        g.drawString("40", 175, 690);
-        g.drawString("60",175,620);
-        g.drawString("80",175,550);
+        g.drawString("0",185,800);
+        g.drawString("20",180,745);
+        g.drawString("40", 180, 690);
+        g.drawString("60",180,620);
+        g.drawString("80",180,550);
         g.drawString("100",175,485);
         g.drawString("120",175,420);
         g.drawString("140", 175, 360);
