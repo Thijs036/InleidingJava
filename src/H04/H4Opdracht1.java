@@ -1,7 +1,9 @@
+package H04;
+
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdracht4 extends Applet {
+public class H4Opdracht1 extends Applet {
 
 
     public void init() {
@@ -9,10 +11,13 @@ public class Opdracht4 extends Applet {
 
     public void paint(Graphics g) {
         g.setColor(Color.black);
-        g.drawLine(40, 200, 300, 200);
-        g.drawLine(180, 54, 300, 200);
-        g.drawLine(40, 201, 181, 50);
-        setBackground(Color.BLUE);
+
+        //linkerlijn
+        g.drawLine(100, 175, 130, 100);
+        //onderlijn
+        g.drawLine(100, 175, 160, 175);
+        //rechterlijn
+        g.drawLine(160, 175, 130, 100);
         /*
         Wat is een platform? - een basis waarop software ontwikkeld wordt.
 
@@ -35,5 +40,5 @@ public class Opdracht4 extends Applet {
         Omdat je door paint het werk kan zien in de Applet.
 
          */
-}
     }
+}

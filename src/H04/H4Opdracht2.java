@@ -1,7 +1,9 @@
+package H04;
+
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdracht2Van4 extends Applet {
+public class H4Opdracht2 extends Applet {
 
 
     public void init() {

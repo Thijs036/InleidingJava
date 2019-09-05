@@ -1,7 +1,9 @@
+package H02;
+
 import java.applet.*;
 import java.awt.*;
 
-public class VragenEnOpdracht2 extends Applet {
+public class VragenEnH2Opdracht1 extends Applet {
 
     public void init() {
         setBackground(Color.BLUE);
@@ -26,6 +28,20 @@ public class VragenEnOpdracht2 extends Applet {
         Wat is een methode?
         een methode is een aantal opdrachten met een naam erboven.
          */
+    }
+
+    public static class H2Opdracht2 extends Applet {
+
+        public void init() {
+            setBackground(Color.WHITE);
+        }
+
+        public void paint(Graphics g) {
+            g.setColor(Color.BLUE);
+            g.drawString("Thijs", 50, 60);
+            g.setColor(Color.RED);
+            g.drawString("Oldenburger", 50, 70);
+        }
     }
 }
 
